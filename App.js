@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import Title from './Title/';
 
 export default function App() {
@@ -10,6 +10,7 @@ export default function App() {
        <Text>Desenvolvimento de Dispositivos Móveis</Text>
        <Text>07-03-2024</Text>
       <Title/>
+      <Button title="Salvar"></Button>
       <StatusBar style="auto" />
     </View>
   );
