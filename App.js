@@ -1,17 +1,14 @@
+
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button } from 'react-native';
-import Title from './Title/';
+import { StyleSheet, Text, View } from 'react-native';
+import Giovana from './SRC/componets/Giovana/main'; 
+import Brenda from './SRC/componets/Brenda';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Brenda Marques</Text>
-       <Text>Giovana Domingues</Text>
-       <Text>Desenvolvimento de Dispositivos Móveis</Text>
-       <Text>07-03-2024</Text>
-      <Title/>
-      <Button title="Salvar"></Button>
-      <StatusBar style="auto" />
+      <Giovana/>
+      <Brenda/>
     </View>
   );
 }
@@ -22,5 +19,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
+  }, 
 });
